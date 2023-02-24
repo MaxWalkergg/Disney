@@ -1,0 +1,18 @@
+.nav .Navbar{
+    display: flex;
+    position: fixed;
+    
+}
+.flxed-header{
+    position: fixed;
+    top: 0;
+    background: var(--BG_GRADIENT_L0);
+}
+.nav-item a{
+    font-size: 20px;
+    
+}
+.bi{
+    width: 3%;
+    height: 3%;
+}

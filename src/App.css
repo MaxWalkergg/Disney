@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+  display: block;
+}
+div{
+  display: block;
+}
+img{
+  height: 4%;
+  width: 4%;
+}
+.carousel-item img{
+  height: 50%;
+  width: 50%;
+}
+
+.card {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: flex-start;
+}
+.card h2 {
+  color: rgb(255, 255, 255);
+  font-size: center;
+  padding-top: 100px;
+  padding-inline-start: 10px;
+  bottom: 15px;
+  left: 10px;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  font-family: 'Prompt', sans-serif;
+  text-decoration: none;
+}
+.card .box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  width: 310px;
+  height: 220px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.box1{
+  background-image: url('https://external-preview.redd.it/9slU5TZV95bQool8Gq4d2Cjb9OkwwqjfEyJs3rOiuD8.jpg?width=640&crop=smart&auto=webp&s=ede991a1ad8c5afaaa288a9bcf9cfc5e151e56c4');
+}
+.box2{
+  background-image: url('https://wallpaperaccess.com/full/14358.jpg');
+}
+.box3{
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/971/593/287/disneyland-walt-disney-disney-wallpaper-preview.jpg');
+}
+.box4{
+  background-image: url('https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg');
+}
+.box5{
+  background-image: url('https://www.teahub.io/photos/full/218-2186029_national-geographic-wallpaper-hd-national-geographic.jpg');
+}
+.card a{
+  text-decoration: none;
+  text-align: center;
+}
+.carousel-inner1{
+  flex-direction: row;
+  display: flex;
+  margin: 10px;
+  margin-block-start: 10px;
+  margin: 0 auto;
+}
+.a{
+  display: flex;
+  max-width: 790px;
+  width: 50%;
+  height: 50%;
+  float: right;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.Box1{
+  flex-direction: row;
+}
+.carousel-caption .content-holder .content-meta {
+  color: var(--TEXT_COLOR_L2);
+  font-weight: 500;
+  font-size: 16px;
+}
+.module{
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 25px;
+  cursor: pointer;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.Box0{
+  position: absolute;
+  word-wrap: break-word;
+  width: 41%;
+  top: 55px;
+    left: 55px;
+    pointer-events: none;
+  background-color: aliceblue;
+}
+.toptitle{
+  font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    margin-top: 2px;
+}
+.content-meta{
+  margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.description{
+  margin-bottom: 14px;
+    line-height: 1.45;
+    font-size: 16px;
+    color: var(--TEXT_COLOR_L1);
+    white-space: normal;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    max-height: 400px;
+    font-weight: 400;
+}
+.bi{
+  width: 20%;
+  height: 20%;
+}
+.store-wrapper .bi{
+  width: 10%;
+  height: 10%;
+}
+.store-wrapper .bi-apple{
+  width: 13%;
+  height: 13%;
+}
+.bt1{
+  display: flex;
+  font-size: center;
+  padding-top: 100px;
+  padding-inline-start: 10px;
+  bottom: 15px;
+  left: 10px;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  font-family: 'Prompt', sans-serif;
+  text-decoration: none;
+  justify-content: center;
+}
+.link a{
+  text-decoration: none;  
+}
+.navber{
+  position: fixed;
+}
+.link a{
+  text-decoration: none;
+}
